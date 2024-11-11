@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rudra Raj's Portfolio</title>
+
+    <!-- Importing Autumn in November Font by Misti's Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Autumn+in+November&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.2/dist/tailwind.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!-- Font Awesome for icons -->
+</head>
+<body class="bg-gray-100 font-sans">
+
+    <!-- Header Section with Light Yellow Background -->
+    <header class="bg-yellow-200 text-gray-800 shadow-md py-8">
+        <div class="container mx-auto text-center">
+            <!-- Name Section with Cursive Font and Increased Size -->
+            <h1 class="text-7xl font-bold" style="font-family: 'Autumn in November', cursive;">
+                Rudra Raj
+            </h1>
+            <!-- Social Media Handles below the name, with larger size -->
+            <div class="mt-4">
+                <a href="https://www.instagram.com/rudraa_6565/" target="_blank" class="text-pink-500 flex items-center space-x-2 mx-2 text-3xl hover:text-pink-400">
+                    <i class="fab fa-instagram fa-2x"></i>
+                    <span class="text-xl">Instagram</span>
+                </a>
+                <a href="https://www.linkedin.com/in/rudra-raj/" target="_blank" class="text-blue-500 flex items-center space-x-2 mx-2 text-3xl hover:text-blue-400">
+                    <i class="fab fa-linkedin fa-2x"></i>
+                    <span class="text-xl">LinkedIn</span>
+                </a>
+            </div>
+            <!-- Updated Line in Bold, Big Font -->
+            <p class="text-4xl font-bold italic mt-4">A Passionate Web Developer from Meerut, Uttar Pradesh</p>
+        </div>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="bg-gray-800 text-white shadow-md">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex justify-between items-center">
+                <a href="#" class="text-2xl font-bold">Rudra Raj</a>
+                <div class="hidden md:flex space-x-6">
+                    <a href="#portfolio-content" class="hover:text-yellow-400">Home</a>
+                    <a href="#objective" class="hover:text-yellow-400">Objective</a>
+                    <a href="#education" class="hover:text-yellow-400">Education</a>
+                    <a href="#projects" class="hover:text-yellow-400">Projects</a>
+                    <a href="#skills" class="hover:text-yellow-400">Skills</a>
+                    <a href="#contact" class="hover:text-yellow-400">Contact</a>
+                </div>
+                <!-- Hamburger for mobile view -->
+                <div class="md:hidden">
+                    <button class="text-white">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Content Section -->
+    <div id="portfolio-content" class="container mx-auto py-12 px-6">
+
+        <!-- Objective Section -->
+        <section id="objective" class="mb-10">
+            <h2 class="text-4xl font-[Pacifico] text-gray-800 mb-4">Objective</h2>
+            <p class="text-lg text-gray-700">An innovative web developer with expertise in HTML, CSS, JavaScript, and modern frameworks, aiming to contribute my skills and creativity to building impactful and visually appealing websites.</p>
+        </section>
+
+        <!-- Educational Details Section -->
+        <section id="education" class="mb-10">
+            <h2 class="text-4xl font-[Pacifico] text-gray-800 mb-4">Educational Details</h2>
+            <ul class="list-disc list-inside text-gray-700">
+                <li><strong>Class 10th</strong> from Rn International School (2021) - 92%</li>
+                <li><strong>Class 12th</strong> from Ved International School (2023) - 88%</li>
+                <li><strong>B.Tech CSE</strong> from MIET Meerut (2023-2027)</li>
+            </ul>
+        </section>
+
+        <!-- Projects Built Section -->
+        <section id="projects" class="mb-10">
+            <h2 class="text-4xl font-[Pacifico] text-gray-800 mb-4">Projects Built</h2>
+            <ul class="list-disc list-inside text-gray-700">
+                <li><strong>Netflix Clone</strong> - Created using HTML, CSS, and JavaScript</li>
+                <li><strong>Snake Game</strong> - Developed using Python</li>
+            </ul>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="mb-10">
+            <h2 class="text-4xl font-[Pacifico] text-gray-800 mb-4">Skills</h2>
+            <ul class="list-disc list-inside text-gray-700">
+                <li class="text-blue-600 font-bold">Web Development (HTML, CSS, JavaScript)</li>
+                <li class="text-blue-600 font-bold">Python</li>
+                <li class="text-blue-600 font-bold">C</li>
+                <li class="text-blue-600 font-bold">C++</li>
+            </ul>
+        </section>
+
+        <!-- Additional Info Section -->
+        <section class="mb-10">
+            <h2 class="text-4xl font-[Pacifico] text-gray-800 mb-4">Additional Information</h2>
+            <p class="text-lg text-gray-700">Dedicated towards my work with active participation in cultural events at MIET (Meerut Institute of Engineering and Technology).</p>
+        </section>
+    </div>
+
+    <!-- Contact Me Section -->
+    <section id="contact" class="bg-gradient-to-r from-green-400 to-teal-500 py-8">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-[Pacifico] text-white mb-4">Contact Me</h2>
+            <p class="text-lg text-white mb-8">Feel free to get in touch with me. I would love to hear from you!</p>
+            <form action="#" method="POST" class="max-w-lg mx-auto bg-white p-6 shadow-lg rounded-lg">
+                <div class="mb-4">
+                    <label for="name" class="block text-gray-700 font-bold mb-2">Name</label>
+                    <input type="text" id="name" name="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg" required>
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-gray-700 font-bold mb-2">Email</label>
+                    <input type="email" id="email" name="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg" required>
+                </div>
+                <div class="mb-4">
+                    <label for="message" class="block text-gray-700 font-bold mb-2">Message</label>
+                    <textarea id="message" name="message" class="w-full px-4 py-2 border border-gray-300 rounded-lg" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="w-full py-2 bg-blue-500 text-white font-bold rounded-lg hover:bg-blue-600">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 py-4">
+        <div class="container mx-auto text-center text-white">
+            <p>&copy; 2023 Rudra Raj. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript to dynamically generate content -->
+    <script src="script.js"></script>
+</body>
+</html>
